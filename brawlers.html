@@ -1,4 +1,5 @@
 <html>
+<link rel="preload" href="images/homeimg.png" as="image">
 
 <head>
     <title>Brawlyze</title>
@@ -86,11 +87,11 @@
                 <a href="/rt" rel="some text" data-icon="r-t rt"><img src="/images/icons/R-T.webp" id="rt" /></a>
                 <a href="/maisie" rel="some text" data-icon="maisie"><img src="/images/icons/MAISIE.webp" id="maisie" /></a>
             </div>
-            <input type="text" id="searchInput" placeholder="Enter brawler...">
-            <button id="searchButton">Filter</button>
-            <div id="results">
-                <!-- Search results will be displayed here -->
+            <div class="search">
+                <input type="text" id="searchInput" placeholder="Enter brawler...">
+                <button id="searchButton" type="button"><span></span>Filter</button>
             </div>
+            <div id="results"></div>
             <script>
                 const searchInput = document.getElementById('searchInput');
                 const searchButton = document.getElementById('searchButton');

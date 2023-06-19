@@ -49,7 +49,7 @@
     position: absolute;
     left: 0;
     bottom: -10px;
-    transition: 0.4s;
+    transition: ease-out .5s;
 }
 
 .navbar ul li:hover::after{
@@ -100,4 +100,18 @@ span{
 
 button:hover span{
     width: 100%;
+}
+
+@keyframes transitionIn {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+.content {
+    animation: transitionIn 2s;
 }
