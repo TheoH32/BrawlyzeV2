@@ -3,12 +3,15 @@ permalink: amber
 folder: mydoc
 toc: false
 ---
+<link rel="preload" href="images/homeimg.png" as="image">
+
+
 <link href='https://fonts.googleapis.com/css?family=Alegreya Sans SC' rel='stylesheet'>
 <head>
   <style>
     body {
         background-color: black;
-        background-image: url("/images/background.jpg");
+        background-image: url("images/homeimg.png");
     }
     h1 {
         font-family: 'Montserrat', sans-serif;
