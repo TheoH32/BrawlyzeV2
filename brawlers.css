@@ -26,7 +26,6 @@
 
 .logo {
     width: 120px;
-    cursor: pointer;
 }
 
 .navbar ul li {
@@ -98,7 +97,6 @@ span {
     z-index: -1;
     transition: 0.5;
     border-radius: 0px;
-    transition-timing-function: ease-out;
 }
 
 button:hover span {

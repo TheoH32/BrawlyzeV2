@@ -25,7 +25,6 @@
 
 .logo {
     width: 120px;
-    cursor: pointer;
 }
 
 .navbar ul li{
@@ -66,7 +65,7 @@
 }
 
 .content h1{
-    font-size: 90px;
+    font-size: 120px;
     margin-top: 80px;
 }
 
@@ -94,7 +93,6 @@ span{
     left: 0;
     bottom: 0;
     z-index: -1;
-    transition: 0.4s;
     border-radius: 0px;
 }
 

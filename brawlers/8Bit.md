@@ -1,0 +1,61 @@
+---
+permalink: 8bit
+folder: mydoc
+toc: false
+---
+<link href='https://fonts.googleapis.com/css?family=Alegreya Sans SC' rel='stylesheet'>
+<head>
+  <style>
+    .left {
+        float: left;
+        padding: 0px 0px 0px 300px;
+    }
+    .right {
+        float: right;
+        text-align: center;
+        padding: 0px 45px 0px 0px;
+    }
+    #right-counters {
+    }
+    #right-reccomend {
+    }
+  </style>
+</head>
+
+<html>
+    <link rel="stylesheet" href="homestyle.css">
+        <body>
+            <div class="banner">
+                <div class="navbar">
+                    <img src="images/logo.png" class="logo">
+                    <ul>
+                        <li><a href="/">Home</a></li>
+                        <li><a href="/brawlers">Brawlers</a></li>
+                        <li><a href="">Player Search</a></li>
+                        <li><a href="">Power League</a></li>
+                    </ul>
+                </div>
+            </div>
+                <div class="content">
+                    <div class="left">
+                        <img src="/images/2D/8Bit_Pose.png" alt="Character">
+                        <h1>8-Bit</h1>
+                    </div>
+                    <div class="right">
+                        <div id="right-counters">
+                            <h1>Counters:</h1>
+                            <a href="/carl.html" rel="some text"><img src="/images/icons/CARL.webp" id="carl" /></a>
+                            <a href="/griff.html" rel="some text"><img src="/images/icons/GRIFF.webp" id="griff" /></a>
+                            <a href="/amber.html" rel="some text"><img src="/images/icons/AMBER.webp" id="amber" /></a>
+                            <a href="/spike.html" rel="some text"><img src="/images/icons/SPIKE.webp" id="spike" /></a>
+                            <a href="/dynamike.html" rel="some text"><img src="/images/icons/DYNAMIKE.webp" id="dynamike" /></a>
+                        </div>
+                        <div id="right-reccomend">
+                        <h1>Reccomended:</h1>
+                            <img src="images/gadget2.png" style="width: 60px">
+                            <img src="images/starpower1.png" style="width: 60px">
+                        </div>
+                    </div>
+                </div>
+        </body>
+</html>
