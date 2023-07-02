@@ -1,39 +1,158 @@
-<link href='https://fonts.googleapis.com/css?family=Alegreya Sans SC' rel='stylesheet'>
-<link rel="stylesheet" href="homestyle.css">
-
 <html>
-    <body>
-        <div class="banner">
-            <div class="navbar">
-                <img src="images/logo.png" class="logo">
-                <ul>
-                    <li><a href="/">Home</a></li>
-                    <li><a href="/brawlers">Brawlers</a></li>
-                    <li><a href="">Player Search</a></li>
-                    <li><a href="">Power League</a></li>
-                </ul>
-            </div>
+<link rel="preload" href="images/homeimg.png" as="image">
+
+<head>
+    <title>Brawlyze</title>
+    <link rel="stylesheet" href="brawlers.css">
+</head>
+
+<body>
+    <div class="banner">
+        <div class="navbar">
+            <img src="images/logo.png" class="logo">
+            <ul>
+                <li><a href="/">Home</a></li>
+                <li><a href="/brawlers">Brawlers</a></li>
+                <li><a href="">Player Search</a></li>
+                <li><a href="">Power League</a></li>
+            </ul>
         </div>
-            <div class="content">
-                <div class="left">
-                    <img src="/images/2D/8Bit_Pose.png" alt="Character">
-                    <h1>8-Bit</h1>
-                </div>
-                <div class="right">
-                    <div id="right-counters">
-                        <h1>Counters:</h1>
-                        <a href="/carl.html" rel="some text"><img src="/images/icons/CARL.webp" id="carl" /></a>
-                        <a href="/griff.html" rel="some text"><img src="/images/icons/GRIFF.webp" id="griff" /></a>
-                        <a href="/amber.html" rel="some text"><img src="/images/icons/AMBER.webp" id="amber" /></a>
-                        <a href="/spike.html" rel="some text"><img src="/images/icons/SPIKE.webp" id="spike" /></a>
-                        <a href="/dynamike.html" rel="some text"><img src="/images/icons/DYNAMIKE.webp" id="dynamike" /></a>
-                    </div>
-                    <div id="right-reccomend">
-                    <h1>Reccomended:</h1>
-                        <img src="images/gadget2.png" style="width: 60px">
-                        <img src="images/starpower1.png" style="width: 60px">
-                    </div>
-                </div>
+        <div class="content">
+            <div class="icons">
+                <a href="/shelly" rel="some text" data-icon="shelly"><img src="/images/icons/SHELLY.webp"
+                        id="shelly" /></a>
+                <a href="/nita" rel="some text" data-icon="nita"><img src="/images/icons/NITA.webp" id="nita" /></a>
+                <a href="/colt" rel="some text" data-icon="colt"><img src="/images/icons/COLT.webp" id="colt" /></a>
+                <a href="/bull" rel="some text" data-icon="bull"><img src="/images/icons/BULL.webp" id="bull" /></a>
+                <a href="/brock" rel="some text" data-icon="brock"><img src="/images/icons/BROCK.webp" id="brock" /></a>
+                <a href="/elprimo" rel="some text" data-icon="elprimo"><img src="/images/icons/EL PRIMO.webp"
+                        id="elprimo" /></a>
+                <a href="/barley" rel="some text" data-icon="barley"><img src="/images/icons/BARLEY.webp"
+                        id="barley" /></a>
+                <a href="/poco" rel="some text" data-icon="poco"><img src="/images/icons/POCO.webp" id="poco" /></a>
+                <a href="/rosa" rel="some text" data-icon="rosa"><img src="/images/icons/ROSA.webp" id="rosa" /></a>
+                <a href="/jessie" rel="some text" data-icon="jessie"><img src="/images/icons/JESSIE.webp"
+                        id="jessie" /></a>
+                <a href="/dynamike" rel="some text" data-icon="dynamike"><img src="/images/icons/DYNAMIKE.webp"
+                        id="dynamike" /></a>
+                <a href="/tick" rel="some text" data-icon="tick"><img src="/images/icons/TICK.webp" id="tick" /></a>
+                <a href="/8bit" rel="some text" data-icon="8bit 8-bit"><img src="/images/icons/8-BIT.webp"
+                        id="eightbit" /></a>
+                <a href="/rico" rel="some text" data-icon="rico"><img src="/images/icons/RICO.webp" id="rico" /></a>
+                <a href="/darryl" rel="some text" data-icon="darryl"><img src="/images/icons/DARRYL.webp"
+                        id="darryl" /></a>
+                <a href="/penny" rel="some text" data-icon="penny"><img src="/images/icons/PENNY.webp" id="penny" /></a>
+                <a href="/carl" rel="some text" data-icon="carl"><img src="/images/icons/CARL.webp" id="carl" /></a>
+                <a href="/jacky" rel="some text" data-icon="jacky"><img src="/images/icons/JACKY.webp" id="jacky" /></a>
+                <a href="/gus" rel="some text" data-icon="gus"><img src="/images/icons/GUS.webp" id="gus" /></a>
+                <a href="/bo" rel="some text" data-icon="bo"><img src="/images/icons/BO.webp" id="bo" /></a>
+                <a href="/emz" rel="some text" data-icon="emz"><img src="/images/icons/EMZ.webp" id="emz" /></a>
+                <a href="/stu" rel="some text" data-icon="stu"><img src="/images/icons/STU.webp" id="stu" /></a>
+                <a href="/piper" rel="some text" data-icon="piper"><img src="/images/icons/PIPER.webp" id="piper" /></a>
+                <a href="/pam" rel="some text" data-icon="pam"><img src="/images/icons/PAM.webp" id="pam" /></a>
+                <a href="/frank" rel="some text" data-icon="frank"><img src="/images/icons/FRANK.webp" id="frank" /></a>
+                <a href="/bibi" rel="some text" data-icon="bibi"><img src="/images/icons/BIBI.webp" id="bibi" /></a>
+                <a href="/bea" rel="some text" data-icon="bea"><img src="/images/icons/BEA.webp" id="bea" /></a>
+                <a href="/nani" rel="some text" data-icon="nani"><img src="/images/icons/NANI.webp" id="nani" /></a>
+                <a href="/edgar" rel="some text" data-icon="edgar"><img src="/images/icons/EDGAR.webp" id="edgar" /></a>
+                <a href="/griff" rel="some text" data-icon="griff"><img src="/images/icons/GRIFF.webp" id="griff" /></a>
+                <a href="/grom" rel="some text" data-icon="grom"><img src="/images/icons/GROM.webp" id="grom" /></a>
+                <a href="/bonnie" rel="some text" data-icon="bonnie"><img src="/images/icons/BONNIE.webp"
+                        id="bonnie" /></a>
+                <a href="/mortis" rel="some text" data-icon="mortis"><img src="/images/icons/MORTIS.webp"
+                        id="mortis" /></a>
+                <a href="/tara" rel="some text" data-icon="tara"><img src="/images/icons/TARA.webp" id="tara" /></a>
+                <a href="/gene" rel="some text" data-icon="gene"><img src="/images/icons/GENE.webp" id="gene" /></a>
+                <a href="/max" rel="some text" data-icon="max"><img src="/images/icons/MAX.webp" id="max" /></a>
+                <a href="/mrp" rel="some text" data-icon="mr.p mrp"><img src="/images/icons/MR. P.webp" id="mrp" /></a>
+                <a href="/sprout" rel="some text" data-icon="sprout"><img src="/images/icons/SPROUT.webp"
+                        id="sprout" /></a>
+                <a href="/byron" rel="some text" data-icon="byron"><img src="/images/icons/BYRON.webp" id="byron" /></a>
+                <a href="/squeak" rel="some text" data-icon="squeak"><img src="/images/icons/SQUEAK.webp"
+                        id="squeak" /></a>
+                <a href="/gray" rel="some text" data-icon="gray"><img src="/images/icons/GRAY.webp" id="gray" /></a>
+                <a href="/willow" rel="some text" data-icon="willow"><img src="/images/icons/WILLOW.webp"
+                        id="willow" /></a>
+                <a href="/spike" rel="some text" data-icon="spike"><img src="/images/icons/SPIKE.webp" id="spike" /></a>
+                <a href="/crow" rel="some text" data-icon="crow"><img src="/images/icons/CROW.webp" id="crow" /></a>
+                <a href="/leon" rel="some text" data-icon="leon"><img src="/images/icons/LEON.webp" id="leon" /></a>
+                <a href="/sandy" rel="some text" data-icon="sandy"><img src="/images/icons/SANDY.webp" id="sandy" /></a>
+                <a href="/amber" rel="some text" data-icon="amber"><img src="/images/icons/AMBER.webp" id="amber" /></a>
+                <a href="/meg" rel="some text" data-icon="meg"><img src="/images/icons/MEG.webp" id="meg" /></a>
+                <a href="/chester" rel="some text" data-icon="chester"><img src="/images/icons/CHESTER.webp"
+                        id="chester" /></a>
+                <a href="/gale" rel="some text" data-icon="gale"><img src="/images/icons/GALE.webp" id="gale" /></a>
+                <a href="/surge" rel="some text" data-icon="surge"><img src="/images/icons/SURGE.webp" id="surge" /></a>
+                <a href="/colette" rel="some text" data-icon="colette"><img src="/images/icons/COLETTE.webp"
+                        id="colette" /></a>
+                <a href="/lou" rel="some text" data-icon="lou"><img src="/images/icons/LOU.webp" id="lou" /></a>
+                <a href="/ruffs" rel="some text" data-icon="ruffs"><img src="/images/icons/RUFFS.webp" id="ruffs" /></a>
+                <a href="/belle" rel="some text" data-icon="belle"><img src="/images/icons/BELLE.webp" id="belle" /></a>
+                <a href="/buzz" rel="some text" data-icon="buzz"><img src="/images/icons/BUZZ.webp" id="buzz" /></a>
+                <a href="/ash" rel="some text" data-icon="ash"><img src="/images/icons/ASH.webp" id="ash" /></a>
+                <a href="/lola" rel="some text" data-icon="lola"><img src="/images/icons/LOLA.webp" id="lola" /></a>
+                <a href="/fang" rel="some text" data-icon="fang"><img src="/images/icons/FANG.webp" id="fang" /></a>
+                <a href="/eve" rel="some text" data-icon="eve"><img src="/images/icons/EVE.webp" id="eve" /></a>
+                <a href="/janet" rel="some text" data-icon="janet"><img src="/images/icons/JANET.webp" id="janet" /></a>
+                <a href="/otis" rel="some text" data-icon="otis"><img src="/images/icons/OTIS.webp" id="otis" /></a>
+                <a href="/sam" rel="some text" data-icon="sam"><img src="/images/icons/SAM.webp" id="sam" /></a>
+                <a href="/buster" rel="some text" data-icon="buster"><img src="/images/icons/BUSTER.webp"
+                        id="buster" /></a>
+                <a href="/mandy" rel="some text" data-icon="mandy"><img src="/images/icons/MANDY.webp" id="mandy" /></a>
+                <a href="/rt" rel="some text" data-icon="r-t rt"><img src="/images/icons/R-T.webp" id="rt" /></a>
+                <a href="/maisie" rel="some text" data-icon="maisie"><img src="/images/icons/MAISIE.webp"
+                        id="maisie" /></a>
             </div>
-    </body>
+            <div class="search">
+                <input type="text" id="searchInput" placeholder="Enter brawler...">
+                <button id="searchButton" type="button"><span></span>Filter</button>
+            </div>
+            <div id="results"></div>
+            <script>
+                const searchInput = document.getElementById('searchInput');
+                const searchButton = document.getElementById('searchButton');
+                const resultsDiv = document.getElementById('results');
+                const iconsContainer = document.querySelector('.icons');
+
+                // Store all brawler links in an array
+                const brawlerLinks = Array.from(iconsContainer.getElementsByTagName('a'));
+
+                // Add click event listener to the search button
+                searchButton.addEventListener('click', performSearch);
+
+                searchInput.addEventListener('keyup', function (event) {
+                    if (event.key === 'Enter') {
+                        performSearch();
+                    }
+                });
+
+                function performSearch() {
+                    // Get the search query from the input field
+                    const query = searchInput.value.toLowerCase();
+
+                    // Clear previous search results
+                    resultsDiv.innerHTML = '';
+
+                    // Loop through each icon and check if it matches the search query
+                    for (let i = 0; i < brawlerLinks.length; i++) {
+                        const brawlerLink = brawlerLinks[i];
+                        const iconData = brawlerLink.getAttribute('data-icon').toLowerCase();
+
+                        // Check if the icon's data-icon attribute matches the search query
+                        if (iconData.includes(query)) {
+                            // Clone the matching icon and append it to the results div
+                            const clone = brawlerLink.cloneNode(true);
+                            resultsDiv.appendChild(clone);
+                        }
+                    }
+
+                    // Clear the search input
+                    searchInput.value = '';
+                }
+
+            </script>
+        </div>
+    </div>
+</body>
+
 </html>
