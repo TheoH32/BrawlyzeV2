@@ -1,3 +1,8 @@
+---
+layout: post
+title: 8Bit
+---
+
 <link href='https://fonts.googleapis.com/css?family=Alegreya Sans SC' rel='stylesheet'>
 <link rel="stylesheet" href="homestyle.css">
 
