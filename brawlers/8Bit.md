@@ -1,6 +1,7 @@
 ---
-layout: page
-title: Movie Reviews
+permalink: 8bit
+folder: mydoc
+toc: false
 ---
 
 <link href='https://fonts.googleapis.com/css?family=Alegreya Sans SC' rel='stylesheet'>
