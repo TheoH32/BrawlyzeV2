@@ -2,6 +2,7 @@
 layout: page
 title: Movie Reviews
 ---
+
 <link href='https://fonts.googleapis.com/css?family=Alegreya Sans SC' rel='stylesheet'>
 <head>
   <style>
