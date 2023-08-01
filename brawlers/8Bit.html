@@ -1,5 +1,4 @@
-<link href="https://fonts.googleapis.com/css?family=Alegreya Sans SC" rel="stylesheet" />
-
+<link href='https://fonts.googleapis.com/css?family=Alegreya Sans SC' rel='stylesheet'>
 <head>
   <style>
     .left {
@@ -19,11 +18,11 @@
 </head>
 
 <html>
-    <link rel="stylesheet" href="homestyle.css" />
+    <link rel="stylesheet" href="homestyle.css">
         <body>
             <div class="banner">
                 <div class="navbar">
-                    <img src="images/logo.png" class="logo" />
+                    <img src="images/logo.png" class="logo">
                     <ul>
                         <li><a href="/">Home</a></li>
                         <li><a href="/brawlers">Brawlers</a></li>
@@ -34,7 +33,7 @@
             </div>
                 <div class="content">
                     <div class="left">
-                        <img src="/images/2D/8Bit_Pose.png" alt="Character" />
+                        <img src="/images/2D/8Bit_Pose.png" alt="Character">
                         <h1>8-Bit</h1>
                     </div>
                     <div class="right">
@@ -48,8 +47,8 @@
                         </div>
                         <div id="right-reccomend">
                         <h1>Reccomended:</h1>
-                            <img src="images/gadget2.png" style="width: 60px" />
-                            <img src="images/starpower1.png" style="width: 60px" />
+                            <img src="images/gadget2.png" style="width: 60px">
+                            <img src="images/starpower1.png" style="width: 60px">
                         </div>
                     </div>
                 </div>
